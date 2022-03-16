@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(1, 36, 85);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.switch{
+    margin-top: 3%;
+}
+
+.switch > button{
+    cursor: pointer;
+    width: 20%;
+    padding: 5px;
+    font-size: 25px;
+    background-color:rgb(16, 81, 172);
+    font-weight: bold;
+    color: white;
+}
+
+.activeTimer, .activeStopW{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid red;
+
+}
+
+.unactiveTimer, .unactiveStopW{
+    border: none;
+}
+
+.time{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    color: white;
+}
+
+.time > p {
+    padding-left: 2px;
+    padding-top: 35px;
+    padding-right: 18px;
+}
+
+.time > h1 {
+    padding-left: 18px;
+}
+
+.timerDiv{
+    margin-top: 10%;
+}
+
+.input{
+    margin: 4px;
+    height: 35px;
+    width: 59px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.startBtn,.stopBtn{
+    background-color: rgb(6, 108, 252);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 4px;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    border: 1.5px inset rgb(3, 94, 223);
+    margin-top: 2%;
+}
+
+.resetBtn{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 4px;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    border: 1.5px inset rgb(199, 4, 4);
+    margin-top: 2%;
+}
+
+.stopWatchScreen{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    color: white;
+}
+
+.stopWatchScreen > p {
+    padding-left: 2px;
+    padding-top: 35px;
+    padding-right: 18px;
+}
+
+.stopWatchScreen > h1 {
+    padding-left: 18px;
+}
+
+.stopWDiv{
+    margin-top: 8%;
+}
+
+.stopResetBtn{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 4px;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    border: 1.5px inset rgb(199, 4, 4);
+    margin-top: 2%;
+}
+
+.StartStopWatchBtn{
+    background-color: rgb(6, 108, 252);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 4px;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    border: 1.5px inset rgb(3, 94, 223);
+    margin-top: 2%;
+}
